@@ -22,7 +22,7 @@ public class MainActivity extends Activity implements SensorEventListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        view = findViewById(R.id.textView);
+        view = findViewById(R.id.button);
         view.setBackgroundColor(Color.GREEN);
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
